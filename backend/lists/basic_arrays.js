@@ -29,3 +29,9 @@ numberList.map(number => {
     console.log(number)
   }
 })
+
+selectedNumber.map(number => {
+  if (number % 2 === 0) {
+    console.log(number)
+  }
+})
